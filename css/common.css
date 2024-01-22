@@ -13,19 +13,23 @@ body {
   line-height: 1.5;
 }
 
+
+
 .gallery {
-  list-style: none;
   display: flex;
-  justify-content: space-between;
+flex-wrap: wrap;
+  list-style: none;
   padding: 0;
 }
 
-.gallery-item {
-  flex: 1;
-  margin: 0 10px;
+.gallery li {
+  margin: 10px;
 }
 
-.gallery-item img {
-  width: 100%;
-  height: auto;
+.gallery img {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #393737; 
+  border-radius: 5px;
+  
 }
